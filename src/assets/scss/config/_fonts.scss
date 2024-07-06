@@ -1,0 +1,25 @@
+/* stylelint-disable */
+//? Миксин для подключения шрифтов
+//* Подробнее: https://developer.mozilla.org/ru/docs/Web/CSS/font-family
+
+@mixin font-face($font-family, $weight, $style) {
+  @font-face {
+    font-family: '#{$font-family}';
+    src: url('@/assets/fonts/#{$font-family}.woff') format('woff');
+    font-weight: #{$weight};
+    font-display: swap;
+    font-style: $style;
+  }
+}
+
+//? Подключение шрифтов
+@include font-face('Mulish-Bold', 600, normal);
+@include font-face('Mulish-Medium', 500, normal);
+@include font-face('Mulish-Regular', 400, normal);
+@include font-face('Inter-SemiBold', 600, normal);
+@include font-face('Inter-Regular', 400, normal);
+@include font-face('Mulish-SemiBold', 600, normal);
+@include font-face('CoFoSans-Regular', 400, normal);
+@include font-face('Roboto-Regular', 400, normal);
+@include font-face('CoFoSans-Medium', 500, normal);
+@include font-face('Mulish-Black', 900, normal);

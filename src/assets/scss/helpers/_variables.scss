@@ -1,0 +1,55 @@
+//? Основные цвета
+$gradient: linear-gradient(225.28deg, #00fff0 12.52%, #faff00 82.05%);
+$green: #0c9733;
+$main: #4bc46d;
+$light: #c2f2d5;
+$lighter: #c2f2d5;
+$black: #030303;
+$darker: #262626;
+$dark: #1d1b20;
+$light-dark: #404040;
+$lighter-dark: #999999;
+$medium: #818181;
+$light: #cccccc;
+$lighter: #f2f2f2;
+$white: #ffffff;
+$background: #f2f7f4;
+$red: #ff312c;
+$primary-static: $gradient;
+$primary-hover: #00fff0;
+$primary-press: #00e5d8;
+$secondary-static: #f2f2f2;
+$secondary-hover: #dcffea;
+$secondary-press: #c2f2d5;
+
+//? Z-index
+$header-z-index: 55;
+
+//? По умолчанию
+$base_fz: 14px; //? Размер шрифта по умолчанию 14px
+$base_ff: 'Mulish-Bold', sans-serif; //? Шрифт по умолчанию
+$base_bg: $background; //? Цвет фона по умолчанию
+$base_color: $medium; //? Цвет текста по умолчанию
+
+//? Переменные семейств шрифтов
+$ff_Mb: 'Mulish-Bold', sans-serif;
+$ff_Mm: 'Mulish-Medium', sans-serif;
+$ff_Mr: 'Mulish-Regular', sans-serif;
+$ff_Msb: 'Mulish-SemiBold', sans-serif;
+$ff_Mbl: 'Mulish-Black', sans-serif;
+$ff_Isb: 'Inter-SemiBold', sans-serif;
+$ff_Ir: 'Inter-Regular', sans-serif;
+$ff_CFSr: 'CoFoSans-Regular', sans-serif;
+$ff_CFSm: 'CoFoSans-Medium', sans-serif;
+$ff_Rr: 'Roboto-Regular', sans-serif;
+
+//? Стиль шрифтов
+$I: italic;
+$O: oblique;
+
+//? Толщина семейства шрифтов
+$r: 400; // Regular
+$m: 500; // Medium
+$sb: 600; // SemiBold
+$b: 700; // Bold
+$br: 900; // Bolder

@@ -1,0 +1,60 @@
+// *================================================================
+//? Шрифты и заголовки
+// *================================================================
+
+// Mulish-Serif Bold
+@mixin M-b32 {
+  font-family: $ff_Mb;
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: $b;
+}
+
+@mixin M-b24 {
+  font-family: $ff_Mb;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: $b;
+}
+
+@mixin M-b16 {
+  font-family: $ff_Mb;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: $b;
+}
+
+@mixin M-b14 {
+  font-family: $ff_Mb;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: $b;
+}
+
+// Mulish-Serif medium
+@mixin M-m16 {
+  font-family: $ff_Mm;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+// Mulish-Serif regular
+@mixin M-r18 {
+  font-family: $ff_Mr;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+@mixin M-r16 {
+  font-family: $ff_Mr;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+// Inter-Serif regular
+@mixin M-r12 {
+  font-family: $ff_Ir;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: $sb;
+}

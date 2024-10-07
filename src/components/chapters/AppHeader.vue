@@ -1,7 +1,7 @@
 <script setup>
 import MainLogo from '@/components/icons/MainLogo.vue'
 import MainButton from '@/components/elements/UI/Buttons/MainButton.vue'
-import BurgerButton from '../elements/UI/Buttons/BurgerButton.vue'
+import BurgerButton from '@/components/elements/UI/Buttons/BurgerButton.vue'
 </script>
 
 <template>

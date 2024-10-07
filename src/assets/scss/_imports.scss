@@ -15,11 +15,11 @@ gulp
 gulp build
 *================================================================
 */
-@import './utils/reset.scss';
-@import './config/breakpoints.scss';
-@import './config/container-options.scss';
-@import './config/grid.scss';
-@import './config/fonts.scss';
-@import './helpers/mixins.scss';
-@import './helpers/variables.scss';
-@import './helpers/typography.scss';
+@import '@/assets/scss/utils/reset.scss';
+@import '@/assets/scss/config/breakpoints.scss';
+@import '@/assets/scss/config/container-options.scss';
+@import '@/assets/scss/config/grid.scss';
+@import '@/assets/scss/config/fonts.scss';
+@import '@/assets/scss/helpers/mixins.scss';
+@import '@/assets/scss/helpers/variables.scss';
+@import '@/assets/scss/helpers/typography.scss';
